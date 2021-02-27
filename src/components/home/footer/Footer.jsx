@@ -1,10 +1,10 @@
 import React from 'react';
-import './footer.css'
+import styles from './footer.module.css'
 
 const Footer = () => {
     return (
         <div style={{ backgroundColor: '#D2D2D2',}}>
-            <footer className="site-footer">
+            <footer className={styles.siteFooter}>
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12 col-md-6">
@@ -15,7 +15,7 @@ const Footer = () => {
                         </div>
                         <div className="col-xs-6 col-md-3" style={{ color: '#fff' }}>
                             <h6>Categories</h6>
-                            <ul className="footer-links">
+                            <ul className={styles.footerLinks}>
                                 <li style={{ color: '#fff' }}><a href="#">Address: <b>তেজগাঁও শিল্প এলাকা, Dhaka 1208</b> </a></li>
                                 <li style={{ color: '#fff' }}><a href="#">Hours: <b>Closed ⋅ Opens 8AM Sat</b> </a></li>
                                 <li style={{ color: '#fff' }}><a href="#">Number of students: <b>8,898</b> </a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
                         </div>
                         <div className="col-xs-6 col-md-3">
                             <h6>Quick Links</h6>
-                            <ul className="footer-links">
+                            <ul className={styles.footerLinks}>
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">Contact Us</a></li>
                                 <li><a href="#">Contribute</a></li>
@@ -45,11 +45,11 @@ const Footer = () => {
                        </p>
                         </div>
                         <div className="col-md-4 col-sm-6 col-xs-12">
-                            <ul className="social-icons">
-                                <li><a className="facebook" href="#"><i className="fa fa-facebook" /></a></li>
-                                <li><a className="twitter" href="#"><i className="fa fa-twitter" /></a></li>
-                                <li><a className="dribbble" href="#"><i className="fa fa-dribbble" /></a></li>
-                                <li><a className="linkedin" href="#"><i className="fa fa-linkedin" /></a></li>
+                            <ul className={styles.socialIcons}>
+                                <li><a className={styles.facebook} href="#"><i className="fa fa-facebook" /></a></li>
+                                <li><a className={styles.twitter} href="#"><i className="fa fa-twitter" /></a></li>
+                                <li><a className={styles.dribbble} href="#"><i className="fa fa-dribbble" /></a></li>
+                                <li><a className={styles.linkedin} href="#"><i className="fa fa-linkedin" /></a></li>
                             </ul>
                         </div>
                     </div>
