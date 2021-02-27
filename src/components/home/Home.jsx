@@ -6,15 +6,17 @@ import NavigationBar from './navbar/NavigationBar';
 import CarouselR from './carousel/CarouselR';
 import Notice from './notice/Notice';
 import Footer from './footer/Footer';
+import Message from './message/Message';
 
 const Home = () => {
 
     return (
-        <div>
-            <NavigationBar></NavigationBar>
-            <CarouselR />
-            <Notice />
-            <Footer />
+        <div style={{background:'rgb(230, 227, 227)'}}>
+            <NavigationBar/>
+            <CarouselR/>
+            <Notice/>
+            <Message/>
+            <Footer/>
         </div>
     )
     }
