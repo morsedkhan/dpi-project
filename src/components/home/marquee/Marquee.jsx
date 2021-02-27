@@ -5,11 +5,10 @@ import { Button,  Col, Form, FormControl, Navbar, Row } from 'react-bootstrap';
 import './marquee.css'
 const Marquee = () => {
     return (
-        <div style={{ height: '40px' }} className="containers">
+        <div style={{ height: '40px', marginTop:'20px' }} >
         <Container>
             <Row>
                 <Col xs={12} md={10}>
-                    <Container >
                         <div className="row " style={{height:'200px'}}>
                             <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <section className="last-news wow fadeInDown" style={{ backgroundColor:'#76b8cc'}}>
@@ -27,7 +26,6 @@ const Marquee = () => {
                             </section>
                         </div>
                     </div>
-                </Container>    
             </Col>
             <Col xs={4} md={2}>
                 <Navbar className="searchBoxDesign" variant="dark">

@@ -37,7 +37,6 @@
 
 .topNavContainer{
   position:fixed !important;
-  top : 50px;
   z-index: 1!important;
   /* box-shadow: 5px 5px 10px rgb(54 66 131 / 15%); */
   /* top: 50%; */
