@@ -1,50 +1,29 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Container, Col, Form, FormControl, Nav, Navbar, NavDropdown, Row } from 'react-bootstrap';
-import './home.css'
-import Logo from '../../assets/logo.png'
-import Oblic from '../../assets/oblique.svg'
-import Capture from '../../assets/Capture.PNG'
-import Marquee from '../../components/home/marquee/Marquee'
-
-const Home = () => {
+import {  Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import '../home.css'
+import Logo from '../../../assets/logo.png'
+import Oblic from '../../../assets/oblique.svg'
+import Capture from '../../../assets/Capture.PNG'
+import Marquee from '../marquee/Marquee'
+import styles from './navigationBar.module.css'
+const NavigationBar = () => {
 
     return (
-        <div className="">
-            <div style={{ height: '40px' }}>
-                <Container>
-                    <Row>
-                        <Col xs={12} md={10}>
-                            <Marquee />
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Navbar className="searchBoxDesign" variant="dark">
-
-                                <Form inline>
-                                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                                    <Button variant="outline-success" style={{color:'#fff'}}>Search</Button>
-                                </Form>
-
-
-                            </Navbar>
-                        </Col>
-                    </Row>
-                </Container>
-
-
-            </div>
-            <Navbar className="navColorDesign topNavContainer" expand="lg" bg="white" mr-5>
+        <div>
+            <Marquee></Marquee>
+            <Navbar className={`${styles.navColorDesign} ${styles.topNavContainer} `} expand="lg" bg="white" mr-5>
                 <div style={{ backgroundColor: 'white', marginTop: '-7px', marginLeft: '-16px', marginBottom: '-8px' }}>
 
                     <Navbar.Brand>
-                        <img className="whiteLogo" src={Capture} alt="logo" />
+                        <img className={styles.whiteLogo} src={Capture} alt="logo" />
                     </Navbar.Brand>
 
                     <Navbar.Brand href="#home">
                         <img style={{ height: '65px', width: '65px' }} src={Logo} alt="logo" />
                     </Navbar.Brand>
                     <Navbar.Brand href="#home">
-                        <img className="imgDesign" src={Oblic} alt="logo" />
+                        <img className={styles.imgDesign} src={Oblic} alt="logo" />
                     </Navbar.Brand>
                 </div>
 
@@ -129,4 +108,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default NavigationBar

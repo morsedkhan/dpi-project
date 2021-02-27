@@ -1,8 +1,12 @@
 
 /* 
 /* Marquee code  */
-.container{
-  margin-top: 10px;
+.containers{
+    width: 100vw;
+    margin:auto;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 .last-news {
 	position: relative;
