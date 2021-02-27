@@ -1,16 +1,12 @@
 
 /* 
 /* Marquee code  */
-.containers{
-    width: 100vw;
-    margin:auto;
-    position: fixed;
-    top: 0;
-    z-index: 2;
+.container{
+  margin-top: 10px;
 }
 .last-news {
 	position: relative;
-	width: 106%;
+	width: 135%;
 	height: 50px;
 	bottom: 10px;
     
@@ -25,13 +21,13 @@
     color: #fff;
     /* color: #76b8cc; */
     display: block;
-    height: 50px;
+    height: 53px;
     width: auto;
     font-size: 1rem;
     position: absolute;
-    margin-top: -15px;
+    margin-top: -8px;
     margin-left: -42px;
-    padding-top: 20px;
+    padding-top: 16px;
     padding-left: 19px;
     padding-right: 38px;
     z-index: 3;
