@@ -1,4 +1,31 @@
+.navColorDesign {
+    /* margin-right: 70px !important; */
+    background-color: #0F1A50 !important;
+    margin-top: -15px;
+    position: relative !important;
+}
 
+.navbar-light .navbar-nav .nav-link{
+    color: #fff !important;
+}
+.navbar-light .navbar-toggler.navbar-toggler{
+    background-color: #fff !important;
+}
+
+.form-inline .form-control {
+    font-size: 10px !important;
+    /* margin-left: 70px; */
+    margin-top: -5px !important;
+}
+
+.topNavContainer{
+    position:fixed !important;
+    z-index: 9999!important;
+    /* box-shadow: 5px 5px 10px rgb(54 66 131 / 15%); */
+    /* top: 50%; */
+    /* left: 0; */
+    width: 100%;
+}
 
 .btn-outline-success {
     font-size: 10px;
@@ -12,6 +39,12 @@
 
 }
 
+.whiteLogo{
+    height: 65px;
+    width: 65px;
+    margin-right: 38px;
+
+}
 
 /* 
 .imgDesign{
@@ -22,10 +55,15 @@
     margin-bottom: -15px;
 } */
 
-
-
-.searchBoxDesign{
-    margin-top: -10px;
+.imgDesign {
+    margin-right: -60px;
+    height: 75px;
+    width: 32px;
+    margin-top: -50px;
+    margin-bottom: -49px;
+}
+.searchBoxDesign {
+    margin-top: -15px;
     background-color: #76B8CC;
     /* background-color: black; */
     margin-right: -128px;

@@ -36,9 +36,9 @@
 }
 
 .topNavContainer{
-  position:fixed !important;
-  top : 50px;
+  position:sticky !important;
   z-index: 1!important;
+  top: 0;
   /* box-shadow: 5px 5px 10px rgb(54 66 131 / 15%); */
   /* top: 50%; */
   /* left: 0; */
