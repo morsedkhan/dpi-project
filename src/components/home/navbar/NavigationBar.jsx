@@ -10,7 +10,7 @@ import styles from './navigationBar.module.css'
 const NavigationBar = () => {
 
     return (
-        <div>
+        <>
             <Marquee></Marquee>
             <Navbar className={`${styles.navColorDesign} ${styles.topNavContainer} `} expand="lg" bg="white" mr-5>
                 <div style={{ backgroundColor: 'white', marginTop: '-7px', marginLeft: '-16px', marginBottom: '-8px' }}>
@@ -103,7 +103,7 @@ const NavigationBar = () => {
                 </Navbar.Collapse>
             </Navbar>
             
-        </div>
+        </>
 
     );
 };

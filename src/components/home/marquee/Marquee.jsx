@@ -17,7 +17,7 @@ const Marquee = () => {
                                             Highlighted
                                         </span>
                                     <div className="top-news">
-                                        <marquee style={{marginTop:'5px', color:'#fff'}}>
+                                        <marquee style={{marginTop:'11px', color:'#fff'}}>
                                             “ছাত্র-ছাত্রীদেরকে Digital Content ডাউনলোড করে পড়াশুনা অব্যাহত রাখার জন্য বলা যাচ্ছে”
                                     </marquee>
 
