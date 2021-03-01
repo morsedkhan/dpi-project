@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import Home from './components/home/Home';
 // import Notice from './components/home/notice/Notice';
 // import Marquee from './components/home/marquee/Marquee';

@@ -7,9 +7,9 @@ import CarouselR from './carousel/CarouselR';
 import Notice from './notice/Notice';
 import Footer from './footer/Footer';
 import Message from './message/Message';
+import NewsDialoug from './newsDialoug/NewsDialoug'
 import Department from './department/Department';
 
-import NewsDialoug from './newsDialoug/NewsDialoug'
 const Home = () => {
 
     return (
@@ -18,8 +18,8 @@ const Home = () => {
             <CarouselR/>
             <Notice/>
             <Message/>
-            <Department/>
             <NewsDialoug></NewsDialoug>
+            <Department/>
             <Footer/>
         </div>
     )
