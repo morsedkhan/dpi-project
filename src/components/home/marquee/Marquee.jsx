@@ -31,7 +31,7 @@ const Marquee = () => {
                 <Navbar className={styles.searchBoxDesign} variant="dark">
                     <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="outline-success" style={{color:'#fff'}}>Search</Button>
+                        <Button size="sm" variant="outline-success" style={{color:'#fff'}}>Search</Button>
                     </Form>
 
 
