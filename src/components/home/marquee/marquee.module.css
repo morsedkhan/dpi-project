@@ -1,0 +1,74 @@
+
+/* Marquee code  */
+
+  .lastNews {
+      position: relative;
+      width: 135%;
+      height: 50px;
+      bottom: 10px;
+      
+  }
+  
+  .newsWrapper {
+      margin-top: -10px;
+      margin-left: -102px;
+  }
+  .newsTitle {
+      background-color: #0F1A50;
+      color: #fff;
+      /* color: #76b8cc; */
+      display: block;
+      height: 53px;
+      width: auto;
+      font-size: 1rem;
+      position: absolute;
+      margin-top: -8px;
+      margin-left: -42px;
+      padding-top: 16px;
+      padding-left: 19px;
+      padding-right: 38px;
+      z-index: 3;
+  }
+  .searchBoxDesign {
+    margin-top: -15px;
+    background-color: #76B8CC;
+    margin-right: -128px;
+  }
+  
+   @media screen and (max-width: 617px){
+    .newsTitle {
+      background-color: #0F1A50;
+      color: #fff;
+      /* color: #76b8cc; */
+      display: block;
+      height: 50px;
+      width: auto;
+      font-size: 1rem;
+      position: absolute;
+      /* margin-top: 2px; */
+      margin-left: -51px;
+      padding-top: 10px;
+      padding-left: 130px;
+      padding-right: 12px;
+      z-index: 3;
+  }.searchBoxDesign{
+    display: none;
+  }.lastNews {
+      position: relative;
+      width: 110%;
+      height: 50px;
+      bottom: 10px;
+  }
+      
+  }
+  @media screen and (max-width: 617px){
+  .lastNews {
+      position: relative;
+      width: 120%;
+      height: 50px;
+      bottom: 10px;
+  }
+  }
+  
+  
+  
