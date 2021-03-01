@@ -2,71 +2,77 @@
 /* Notice css code start here */
 
 .noticesCss{
-    background-color: aqua;
+    background-color: #f9d342;
+    color : #292826;
     padding: 6px;
     border-radius: 10px;
     text-align: center;
     font-size: 15px;
     margin-right: 10px;
- color:'#fff';
+
+
+}
+.noticesCss2{
+   /* margin-top: 10px; */
+background-color:#df678c;
+color : #3d155f;
+   padding: 6px;
+   border-radius: 10px;
+   text-align: center;
+   font-size: 15px;
+   margin-right: 10px;
+
+
+}
+.noticesCss3{
+background-color:#f0a07c ;
+color : #4a27af;
+   padding: 6px;
+   border-radius: 10px;
+   text-align: center;
+   font-size: 15px;
+   margin-right: 10px;
+
+
+}
+.noticesCss4{
+   background-color: #8aaae5;
+   color : #ffffff;
+   padding: 6px;
+   border-radius: 10px;
+   text-align: center;
+   font-size: 15px;
+
+   margin-right: 10px;
+}
+.noticesCss5{
+background-color:#2f3c7e ;
+color :#fbeaeb ;
+   padding: 6px;
+   border-radius: 10px;
+   text-align: center;
+   font-size: 15px;
+   margin-right: 10px;
+
 
 }
 
 .noticesCss1{
- background-color:yellow;
+ background-color:#fce77d;
+ color : #f96167;
     padding: 6px;
     border-radius: 10px;
     text-align: center;
     font-size: 15px;
     margin-right: 10px;
- color:'#fff';
 
-}
-
-.noticesCss2{
-    /* margin-top: 10px; */
- background-color: rgb(123, 16, 247);
-    padding: 6px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 15px;
-    margin-right: 10px;
- color:'#fff';
-
-}
-.noticesCss3{
- background-color: red;
-    padding: 6px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 15px;
-    margin-right: 10px;
- color:'#fff';
-
-}
-.noticesCss4{
- background-color: rgb(59, 241, 43);
-    padding: 6px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 15px;
- color:'#fff';
-    margin-right: 10px;
-}
-.noticesCss5{
- background-color: rgba(34, 250, 52, 0.534);
-    padding: 6px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 15px;
-    margin-right: 10px;
- color:'#fff';
 
 }
 
 .noticesCss6{
- background-color: rgb(255, 0, 119);
- color:'#fff';
+ background-color: #f7ee45;
+ color : #3c1a5b;
+
     padding: 6px;
     border-radius: 10px;
     text-align: center;
