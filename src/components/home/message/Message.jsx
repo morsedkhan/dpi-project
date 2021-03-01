@@ -4,11 +4,11 @@ import styles from './message.module.css'
 import chancellor from '../../../assets/chancellor.jpg'
 const Message = () => {
     return (
-        <div >
-            <Card className={styles.container}>
+        <div>
+            <Card className={styles.container} style={{ backgroundColor: '#fff', }}>
                 
                         <p className={styles.msgFrom}>Message from</p>
-                        <h3 className={styles.chancellor}>Vice Chancellor</h3>
+                        <h3 className={styles.chancellor}>Vice Principal</h3>
                     
                         <img className={styles.chancellorImg} src={chancellor}
                         alt=""/>

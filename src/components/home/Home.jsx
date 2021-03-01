@@ -8,6 +8,8 @@ import Notice from './notice/Notice';
 import Footer from './footer/Footer';
 import Message from './message/Message';
 import NewsDialoug from './newsDialoug/NewsDialoug'
+import Department from './department/Department';
+
 const Home = () => {
 
     return (
@@ -17,6 +19,7 @@ const Home = () => {
             <Notice/>
             <Message/>
             <NewsDialoug></NewsDialoug>
+            <Department/>
             <Footer/>
         </div>
     )

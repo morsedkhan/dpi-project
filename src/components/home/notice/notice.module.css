@@ -1,0 +1,84 @@
+
+/* Notice css code start here */
+
+.noticesCss{
+    background-color: aqua;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+ color:'#fff';
+
+}
+
+.noticesCss1{
+ background-color:yellow;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+ color:'#fff';
+
+}
+
+.noticesCss2{
+    /* margin-top: 10px; */
+ background-color: rgb(123, 16, 247);
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+ color:'#fff';
+
+}
+.noticesCss3{
+ background-color: red;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+ color:'#fff';
+
+}
+.noticesCss4{
+ background-color: rgb(59, 241, 43);
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+ color:'#fff';
+    margin-right: 10px;
+}
+.noticesCss5{
+ background-color: rgba(34, 250, 52, 0.534);
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+ color:'#fff';
+
+}
+
+.noticesCss6{
+ background-color: rgb(255, 0, 119);
+ color:'#fff';
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.maineNotice {
+    /* border: 1px solid; */
+    font-size: 15px;
+    /* background-color: aliceblue; */
+    /* padding: 14px; */
+    border-radius: 7px;
+    
+}
