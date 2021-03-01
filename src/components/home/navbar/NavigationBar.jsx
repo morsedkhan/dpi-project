@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {  Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import '../home.css'
 import Logo from '../../../assets/logo.png'
 import Oblic from '../../../assets/oblique.svg'
 import Capture from '../../../assets/Capture.PNG'
@@ -13,7 +12,7 @@ const NavigationBar = () => {
         <>
             <Marquee></Marquee>
             <Navbar className={`${styles.navColorDesign} ${styles.topNavContainer} `} expand="lg" bg="white" mr-5>
-                <div style={{ backgroundColor: 'white', marginTop: '-7px', marginLeft: '-16px', marginBottom: '-8px' }}>
+                <div style={{ backgroundColor: 'white', marginTop: '-8px', marginLeft: '-16px', marginBottom: '-8px' }}>
 
                     <Navbar.Brand>
                         <img className={styles.whiteLogo} src={Capture} alt="logo" />

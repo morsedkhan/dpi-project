@@ -1,9 +1,114 @@
+.navColorDesign {
+    background-color: #0F1A50 !important;
+    margin-top: -15px;
+    position: relative !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff !important;
+}
+.navbar-light .navbar-toggler.navbar-toggler{
+    background-color: #fff !important;
+}
+
+.form-inline .form-control {
+    font-size: 10px !important;
+    margin-top: -5px !important;
+}
+
+.topNavContainer{
+    position:fixed !important;
+    z-index: 9999!important;
+    width: 100%;
+}
+
+.btn-outline-success {
+    font-size: 10px;
+    color: #28a745;
+    border-color: #28a745;
+    margin-top: -5px !important;
+}
+.btn-outline-info{
+    font-size: 10px !important;
+    margin-top: -20px !important;
+
+}
+
+.whiteLogo{
+    height: 65px;
+    width: 65px;
+    margin-right: 38px;
+
+}
+
+
+
+.imgDesign {
+    margin-right: -60px;
+    height: 75px;
+    width: 32px;
+    margin-top: -50px;
+    margin-bottom: -49px;
+}
+.searchBoxDesign {
+    margin-top: -15px;
+    background-color: #76B8CC;
+    /* background-color: black; */
+    margin-right: -128px;
+    /* margin-left: -45px; */
+}
+
+
+ @media screen and (max-width: 617px){
+  .whiteLogo{
+      display: none !important;
+  }.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 98%;
+    padding-right: 13px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1123px !important;
+}
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1468px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1242px;
+    }
+}
+
+
+.makeStyles-root-5 {
+    flex-grow: 1;
+    margin-right: -93px !important;
+}
+
+
+
+
+
 .imgDesign {
   margin-right: -60px;
-  height: 76px;
+  height: 75px;
   width: 78px;
-  margin-top: -23px;
-  margin-bottom: -24px;
+  margin-top: -21px;
+  margin-bottom: -21px;
+}
+
+.navigationBar_imgDesign__3rapf {
+    margin-right: -60px;
+    height: 75px;
+    width: 78px;
+    margin-top: -27px;
+    margin-bottom: -27px;
 }
 
 
