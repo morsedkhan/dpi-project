@@ -54,7 +54,7 @@ export default function AutoGrid() {
         },
     ]
     return (
-        <div style={{ backgroundColor:'#D2D2D2', padding:'20px'}}>
+        <div style={{ backgroundColor:'#fff', padding:'20px'}}>
         
             <div>
              <h3 style={{color: 'black'}}>News And Events</h3>

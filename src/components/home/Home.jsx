@@ -13,6 +13,7 @@ import Department from './department/Department';
 const Home = () => {
 
     return (
+        
         <div style={{background:'rgb(230, 227, 227)'}}>
             <NavigationBar/>
             <CarouselR/>

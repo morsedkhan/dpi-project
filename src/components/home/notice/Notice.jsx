@@ -6,17 +6,17 @@ import notice from './notice.module.css'
 
 const Notice = () => {
     return (
-        <div style={{ backgroundColor: '#D2D2D2', marginTop: '-10px', padding: '20px' }}>
+        <div className={notice.BgImageInNtc} style={{ backgroundColor: '#E6E3E3', marginTop: '-10px', padding: '20px' ,width:'100%' }}>
 
-            <>
+            <Container>
                 <Row>
 
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={7}>
                         <div style={{}}>
                             <News />
                         </div>
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={5}>
                         <br/>
                         <h3>Notices</h3>
                         <div style={{display: 'flex', alignItems: 'center',backgroundColor: '#fff', padding:'10px', borderRadius:'5px', marginBottom:'7px'}}>
@@ -65,7 +65,7 @@ const Notice = () => {
                         </div>
                     </Col>
                 </Row>
-            </>
+            </Container>
 
 
         </div>

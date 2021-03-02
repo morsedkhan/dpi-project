@@ -1,5 +1,5 @@
 .container{
-    width: 60%;
+    width: 79%;
     margin: auto;
     margin-top: 70px;
     margin-bottom: 50px;
@@ -32,4 +32,11 @@
     margin:0;
     margin-left: 20px;
     padding: 0;
+}
+
+.bgImageInVcMsg{
+    background-image: url(../../../assets/chevron.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
 }

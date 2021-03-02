@@ -11,15 +11,15 @@ const NavigationBar = () => {
     return (
         <>
             <Marquee></Marquee>
-            <Navbar className={`${styles.navColorDesign} ${styles.topNavContainer} `} expand="lg" bg="white" mr-5>
+            <Navbar className={`${styles.navColorDesign} ${styles.topNavContainer} `} expand="lg" bg="white" mr-5 style={{marginTop:'-26px'}}>
                 <div style={{ backgroundColor: 'white', marginTop: '-8px', marginLeft: '-16px', marginBottom: '-8px' }}>
 
                     <Navbar.Brand>
-                        <img className={styles.whiteLogo} src={Capture} alt="logo" />
+                        {/* <img className={styles.whiteLogo} src={Capture} alt="logo" /> */}
                     </Navbar.Brand>
 
                     <Navbar.Brand href="#home">
-                        <img style={{ height: '65px', width: '65px' }} src={Logo} alt="logo" />
+                        <img style={{ height: '50px',}} src={Logo} alt="logo" />
                     </Navbar.Brand>
                     <Navbar.Brand href="#home">
                         <img className={styles.imgDesign} src={Oblic} alt="logo" />

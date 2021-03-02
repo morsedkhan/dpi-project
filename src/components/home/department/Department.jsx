@@ -8,7 +8,10 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import Capture from '../../../assets/Homepage-Banner-04.png'
+import Computer from '../../../assets/Department/computer (1).jpg'
+import Civil from '../../../assets/Department/civil.jpg'
+import Power from '../../../assets/Department/power.jpg'
+import Capture from '../../../assets/Department/electronics.jpg'
 import { Container } from '@material-ui/core';
 
 
@@ -40,7 +43,7 @@ const responsive = {
 const Department = () => {
     const classes = useStyles();
     return (
-        <Container>
+        <Container className={department.BgImage}>
             <div className={department.container}>
                 <Carousel responsive={responsive}
 
@@ -48,17 +51,17 @@ const Department = () => {
                     <div>
                         <Card className={classes.root} style={{ width: '95%' }}>
                             <CardActionArea>
-                                <CardMedia
+                                <CardMedia style={{ height: '100%', width:'100%'}}
                                     component="img"
                                     alt="Contemplative Reptile"
-                                    height="140"
-                                    image={Capture}
+                                    
+                                    image={Computer}
                                     title="Contemplative Reptile"
                                 />
                                 <CardContent>
 
-                                    <Typography variant="body2" color="textSecondary" component="p">
-                                        Computer
+                                    <Typography variant="body2"  color="textSecondary" component="p" style={{textAlign:'center', color:'darkcyan', fontSize:'19px'}}>
+                                      Department of  Computer
                            </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -67,17 +70,18 @@ const Department = () => {
                     <div>
                         <Card className={classes.root} style={{ width: '95%' }}>
                             <CardActionArea>
-                                <CardMedia
+                                <CardMedia style={{ height: '100%', width:'113%'}}
                                     component="img"
                                     alt="Contemplative Reptile"
-                                    height="140"
-                                    image={Capture}
+                                    
+                                    image={Civil}
                                     title="Contemplative Reptile"
                                 />
                                 <CardContent>
 
-                                    <Typography variant="body2" color="textSecondary" component="p">
-                                        Computer
+                                    <Typography variant="body2"  color="textSecondary" component="p" style={{textAlign:'center', color:'darkcyan', fontSize:'19px'}}>
+                                        Department of  Civil Engineering
+
                            </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -86,17 +90,17 @@ const Department = () => {
                     <div>
                         <Card className={classes.root} style={{ width: '95%' }}>
                             <CardActionArea>
-                                <CardMedia
+                                <CardMedia style={{ height: '100%', width:'100%'}} 
                                     component="img"
                                     alt="Contemplative Reptile"
-                                    height="140"
+                                    
                                     image={Capture}
                                     title="Contemplative Reptile"
                                 />
                                 <CardContent>
 
-                                    <Typography variant="body2" color="textSecondary" component="p">
-                                        Computer
+                                    <Typography variant="body2"  color="textSecondary" component="p" style={{textAlign:'center', color:'darkcyan', fontSize:'19px'}}>
+                                        Electronics Engineering
                            </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -105,16 +109,16 @@ const Department = () => {
                     <div>
                         <Card className={classes.root} style={{ width: '95%' }}>
                             <CardActionArea>
-                                <CardMedia
+                                <CardMedia style={{ height: '100%', width:'93%'}}
                                     component="img"
                                     alt="Contemplative Reptile"
-                                    height="140"
-                                    image={Capture}
+                                    
+                                    image={Power}
                                     title="Contemplative Reptile"
                                 />
                                 <CardContent>
-                                    <Typography variant="body2" color="textSecondary" component="p">
-                                        Computer
+                                    <Typography variant="body2"  color="green" component="p" style={{textAlign:'center', color:'darkcyan', fontSize:'19px'}}>
+                                        Power Engineering
                            </Typography>
                                 </CardContent>
                             </CardActionArea>

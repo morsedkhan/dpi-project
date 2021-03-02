@@ -88,3 +88,11 @@ color :#fbeaeb ;
     border-radius: 7px;
     
 }
+
+.BgImageInNtc{
+   background-image: url(../../../assets/chevron.png);
+   /* background-repeat: no-repeat; */
+   background-size: cover;
+   background-position: cover;
+   /* width: 100%; */
+}

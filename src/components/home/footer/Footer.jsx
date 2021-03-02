@@ -3,7 +3,7 @@ import styles from './footer.module.css'
 
 const Footer = () => {
     return (
-        <div style={{ backgroundColor: '#D2D2D2',}}>
+        <div style={{ backgroundColor: '#D2D2D2',}} className={styles.footerBgImg}>
             <footer className={styles.siteFooter}>
                 <div className="container">
                     <div className="row">

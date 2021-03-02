@@ -4,7 +4,7 @@ import styles from './message.module.css'
 import chancellor from '../../../assets/chancellor.jpg'
 const Message = () => {
     return (
-        <div>
+        <div className={styles.bgImageInVcMsg}>
             <Card className={styles.container} style={{ backgroundColor: '#fff', }}>
                 
                         <p className={styles.msgFrom}>Message from</p>

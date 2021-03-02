@@ -162,3 +162,10 @@
     font-weight:600
   }
 }
+
+
+.footerBgImg{
+  background-image: url(../../../assets/fotter-pattern.png);
+  background-position: cover;
+  background-size: cover;
+}
