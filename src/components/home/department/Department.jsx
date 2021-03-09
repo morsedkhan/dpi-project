@@ -29,11 +29,11 @@ const responsive = {
     },
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 3
+        items: 2.9
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
-        items: 2
+        items: 1.8
     },
     mobile: {
         breakpoint: { max: 464, min: 0 },
@@ -43,90 +43,97 @@ const responsive = {
 const Department = () => {
     const classes = useStyles();
     return (
-        <Container className={department.BgImage}>
-            <div className={department.container}>
-                <Carousel responsive={responsive}
+        <div className={department.BgImage}>
+            <Container>
+                <br />
+                <h3 style={{ textAlign: 'center', color: 'darkcyan', marginBottom: '-40px' }}>All Departments</h3>
+                <div className={department.container}>
+                    <Carousel autoPlay infinite responsive={responsive}
 
-                >
-                    <div>
-                        <Card className={classes.root} style={{ width: '95%' }}>
-                            <CardActionArea>
-                                <CardMedia style={{ height: '100%', width:'100%'}}
-                                    component="img"
-                                    alt="Contemplative Reptile"
-                                    
-                                    image={Computer}
-                                    title="Contemplative Reptile"
-                                />
-                                <CardContent>
+                    >
+                        <div>
+                            <Card className={classes.root} style={{ width: '95%' }}>
+                                <CardActionArea>
+                                    <CardMedia style={{ height: '100%', width: '100%' }}
+                                        component="img"
+                                        alt="Contemplative Reptile"
 
-                                    <Typography variant="body2"  color="textSecondary" component="p" style={{textAlign:'center', color:'darkcyan', fontSize:'19px'}}>
-                                      Department of  Computer
+                                        image={Computer}
+                                        title="Contemplative Reptile"
+                                    />
+                                    <CardContent>
+
+                                        <Typography variant="body2" color="textSecondary" component="p" style={{ textAlign: 'center', color: 'darkcyan', fontSize: '19px' }}>
+                                            Computer Engineering
                            </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-                    <div>
-                        <Card className={classes.root} style={{ width: '95%' }}>
-                            <CardActionArea>
-                                <CardMedia style={{ height: '100%', width:'113%'}}
-                                    component="img"
-                                    alt="Contemplative Reptile"
-                                    
-                                    image={Civil}
-                                    title="Contemplative Reptile"
-                                />
-                                <CardContent>
+                                    </CardContent>
+                                </CardActionArea>
+                            </Card>
+                        </div>
+                        <div>
+                            <Card className={classes.root} style={{ width: '95%' }}>
+                                <CardActionArea>
+                                    <CardMedia style={{ height: '100%', width: '113%' }}
+                                        component="img"
+                                        alt="Contemplative Reptile"
 
-                                    <Typography variant="body2"  color="textSecondary" component="p" style={{textAlign:'center', color:'darkcyan', fontSize:'19px'}}>
-                                        Department of  Civil Engineering
+                                        image={Civil}
+                                        title="Contemplative Reptile"
+                                    />
+                                    <CardContent>
+
+                                        <Typography variant="body2" color="textSecondary" component="p" style={{ textAlign: 'center', color: 'darkcyan', fontSize: '19px' }}>
+                                             Civil Engineering
 
                            </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-                    <div>
-                        <Card className={classes.root} style={{ width: '95%' }}>
-                            <CardActionArea>
-                                <CardMedia style={{ height: '100%', width:'100%'}} 
-                                    component="img"
-                                    alt="Contemplative Reptile"
-                                    
-                                    image={Capture}
-                                    title="Contemplative Reptile"
-                                />
-                                <CardContent>
+                                    </CardContent>
+                                </CardActionArea>
+                            </Card>
+                        </div>
+                        <div>
+                            <Card className={classes.root} style={{ width: '95%' }}>
+                                <CardActionArea>
+                                    <CardMedia style={{ height: '100%', width: '100%' }}
+                                        component="img"
+                                        alt="Contemplative Reptile"
 
-                                    <Typography variant="body2"  color="textSecondary" component="p" style={{textAlign:'center', color:'darkcyan', fontSize:'19px'}}>
-                                        Electronics Engineering
+                                        image={Capture}
+                                        title="Contemplative Reptile"
+                                    />
+                                    <CardContent>
+
+                                        <Typography variant="body2" color="textSecondary" component="p" style={{ textAlign: 'center', color: 'darkcyan', fontSize: '19px' }}>
+                                            Electronics Engineering
                            </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-                    <div>
-                        <Card className={classes.root} style={{ width: '95%' }}>
-                            <CardActionArea>
-                                <CardMedia style={{ height: '100%', width:'93%'}}
-                                    component="img"
-                                    alt="Contemplative Reptile"
-                                    
-                                    image={Power}
-                                    title="Contemplative Reptile"
-                                />
-                                <CardContent>
-                                    <Typography variant="body2"  color="green" component="p" style={{textAlign:'center', color:'darkcyan', fontSize:'19px'}}>
-                                        Power Engineering
+                                    </CardContent>
+                                </CardActionArea>
+                            </Card>
+                        </div>
+                        <div>
+                            <Card className={classes.root} style={{ width: '95%' }}>
+                                <CardActionArea>
+                                    <CardMedia style={{ height: '100%', width: '93%' }}
+                                        component="img"
+                                        alt="Contemplative Reptile"
+
+                                        image={Power}
+                                        title="Contemplative Reptile"
+                                    />
+                                    <CardContent>
+                                        <Typography variant="body2" color="green" component="p" style={{ textAlign: 'center', color: 'darkcyan', fontSize: '19px' }}>
+                                            Power Engineering
                            </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-                </Carousel>
-            </div>
-        </Container>
+                                    </CardContent>
+                                </CardActionArea>
+                            </Card>
+                        </div>
+                    </Carousel>
+                </div>
+            </Container>
+            <br/>
+            <br/>
+        </div>
+       
        
     
     );

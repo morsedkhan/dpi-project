@@ -6,7 +6,6 @@ import styles from './marquee.module.css'
 const Marquee = () => {
     return (
         <Container>
-
             <div style={{ height: '40px', marginTop: '20px' }} >
                 <Row>
                     <Col xs={12} md={10}>

@@ -5,6 +5,7 @@
   font-size:15px;
   line-height:24px;
   color:#737373;
+  margin-top: -50px;
 }
 .siteFooter hr
 {
@@ -73,6 +74,12 @@
 {
   margin:0
 }
+@media screen and (max-width: 617px){
+ .siteFooter {
+   text-align: center
+ } 
+}
+
 @media (max-width:991px)
 {
   .siteFooter [class^=col-]

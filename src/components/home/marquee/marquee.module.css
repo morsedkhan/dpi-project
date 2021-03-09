@@ -54,7 +54,7 @@
       color: #fff;
       /* color: #76b8cc; */
       display: block;
-      height: 50px;
+      height: 42px;
       width: auto;
       font-size: 1rem;
       position: absolute;
@@ -77,9 +77,12 @@
   @media screen and (max-width: 617px){
   .lastNews {
       position: relative;
-      width: 120%;
+      width: 105%;
       height: 50px;
       bottom: 10px;
+  }  .newsWrapper {
+      margin-top: -10px;
+      margin-left: -84px;
   }
   }
   

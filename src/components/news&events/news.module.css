@@ -1,0 +1,12 @@
+.buttonDesign{
+    max-height: 40px;
+    padding: 5px 31px;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: black;
+    background: #f4e90a;
+    /* background: var(--primary-color); */
+    box-shadow: 2px 4px 6px rgb(0 0 0 / 7%), 2px 4px 12px rgb(0 0 0 / 10%);
+    transition: all .2s ease-in-out;
+    letter-spacing: .1rem;
+}

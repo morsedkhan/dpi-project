@@ -90,9 +90,11 @@ color :#fbeaeb ;
 }
 
 .BgImageInNtc{
-   background-image: url(../../../assets/chevron.png);
-   /* background-repeat: no-repeat; */
-   background-size: cover;
-   background-position: cover;
-   /* width: 100%; */
+   /* background-image: url(../../../assets/geometry_@2X.png); */
+  position: relative;
+    background-image: url(../../../assets/rshp.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 0 0;
+    background-color: hsla(0,0%,96.9%,.40392);
 }

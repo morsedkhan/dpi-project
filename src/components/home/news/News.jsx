@@ -2,13 +2,16 @@ import React from 'react';
 import { makeStyles, } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
+import { Link } from 'react-router-dom';
 import ImageCard from './ImageCard';
-import { Typography, Card, CardActionArea, CardMedia, CardContent, CardActions, Button } from '@material-ui/core';
+import { Typography, Card, CardActionArea, CardMedia, CardContent, CardActions, Button, } from '@material-ui/core';
+// import { Link } from 'react-router-dom';
+// import { Button, Col, Form, FormControl, Navbar, Row } from 'react-bootstrap';
 import Imag1 from '../../../assets/dpi pictures/News and Events pic/news-1.jpg';
 import Imag2 from '../../../assets/dpi pictures/News and Events pic/news-2.jpg';
 import Imag3 from '../../../assets/dpi pictures/News and Events pic/news-3.jpg';
 import Imag4 from '../../../assets/dpi pictures/News and Events pic/news-4.jpg';
-import NewsDialoug from '../newsDialoug/NewsDialoug';
+// import NewsDialoug from '../newsDialoug/NewsDialoug';
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 2,
@@ -28,78 +31,84 @@ export default function AutoGrid() {
     // const classes = useStyles();
     const myData = [
         {
-            img : Imag1,
-            text : ' Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
-            date : '12/12/2021',
-            dialoug : 'amar sonar banla'
+            img: Imag1,
+            text: ' Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
+            date: '12/12/2021',
+            dialoug: 'amar sonar banla'
 
         },
         {
-            img : Imag2,
-            text : ' Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
-            date : '12/12/2021',
-            dialoug : 'ami tomay valobashi'
+            img: Imag2,
+            text: ' Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
+            date: '12/12/2021',
+            dialoug: 'ami tomay valobashi'
         },
         {
-            img : Imag3,
-            text : ' Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
-            date : '12/12/2021',
-            dialoug : 'cirodin tomar akash tomar batash'
+            img: Imag3,
+            text: ' Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
+            date: '12/12/2021',
+            dialoug: 'cirodin tomar akash tomar batash'
         },
         {
-            img : Imag4,
-            text : ' Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
-            date : '12/12/2021',
-            dialoug : 'amar prane bajay bashi'
+            img: Imag4,
+            text: ' Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
+            date: '12/12/2021',
+            dialoug: 'amar prane bajay bashi'
         },
     ]
     return (
-        <div style={{ backgroundColor:'#fff', padding:'20px'}}>
-        
+        <div style={{ backgroundColor: '#fff', padding: '20px' }}>
+
             <div>
-             <h3 style={{color: 'black'}}>News And Events</h3>
+                <h3 style={{ color: '#007BFF' }}>News And Events</h3>
             </div>
             <div className={classes.root}>
                 <Grid container spacing={2}>
 
                     {
-                        myData.map((data,i)=>{
+                        myData.map((data, i) => {
                             return (
                                 <Grid key={i} item xs={12} md={6}>
-                                <NewsDialoug output={data.dialoug}>
-                                    <Card className={classes.root}>
-                                        <CardActionArea>
-                                            <CardMedia
-                                                className={classes.media}
-                                                image={data.img}
-                                                title="Contemplative Reptile"
-                                            />
-                                            <CardContent>
-                                                <Typography variant="body2" color="textSecondary" component="p">
-                                                   {data.text}
-                                        </Typography>
-                                            </CardContent>
-                                        </CardActionArea>
-                                        <CardActions style={{ display: 'flex', justifyContent: 'space-between' }}>
-                                            <Button size="small" color="primary">
-                                                {data.date}
-                                        </Button>
+                                    <div output={data.dialoug}>
+                                        <Card className={classes.root}>
+                                            <CardActionArea>
+                                                <CardMedia
+                                                    className={classes.media}
+                                                    image={data.img}
+                                                    title="Contemplative Reptile"
+                                                />
+                                                <CardContent>
+                                                    <Typography variant="body2" color="textSecondary" component="p">
+                                                        {data.text}
+                                                    </Typography>
+                                                </CardContent>
+                                            </CardActionArea>
+                                            <CardActions style={{ display: 'flex', justifyContent: 'space-between' }}>
+                                                <Button size="small" color="primary">
+                                                    {data.date}
+                                                </Button>
 
-                                        <Button size="small" color="primary">
-                                                Share
+                                                <Button size="small" color="primary">
+                                                    Share
                                         </Button>
-                                        </CardActions>
-                                    </Card>
-                                
-                                </NewsDialoug>
+                                            </CardActions>
+                                        </Card>
+
+                                    </div>
                                 </Grid>
                             )
                         })
                     }
-                    
                 </Grid>
             </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', }}>
+                <Button></Button>
+                
+                <Link to="/departMent"> <button style={{ backgroundColor: '#007BFF', marginTop: '45px', color: '#fff', border: 'none', padding: '5px', height: '38px', borderRadius: '5px' }}>Archive</button> </Link>
+          
+                {/* <Button size="small" color="primary">Archive</Button> */}
+            </div>
         </div>
-       
+
     );
 }
