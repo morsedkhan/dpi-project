@@ -33,7 +33,7 @@ const styles = (theme) => ({
       <div  onClick={handleClickOpen}>
         {props.children}
       </div>
-      <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+      <Dialog label="Full width" onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
         {props.children}
       </Dialog>
     </>

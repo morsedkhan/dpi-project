@@ -1,3 +1,13 @@
+.navbarNav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px !important;
+    margin: auto !important;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
 .navColorDesign {
     background-color: #0F1A50 !important;
     margin-top: -15px;

@@ -15,7 +15,7 @@ const NavigationBar = () => {
         <>
             <Marquee></Marquee>
             <Navbar className={`${styles.navColorDesign} ${styles.topNavContainer} `} expand="lg" bg="white" mr-5 style={{ marginTop: '-26px' }}>
-                <div style={{ backgroundColor: 'white', marginTop: '-8px', marginLeft: '-16px', marginBottom: '-8px' }}>
+                <div style={{ backgroundColor: 'white', marginTop: '-8px', marginLeft: '-16px', marginBottom: '-8px'}}>
 
                     <Navbar.Brand>
                         {/* <img className={styles.whiteLogo} src={Capture} alt="logo" /> */}
@@ -32,11 +32,11 @@ const NavigationBar = () => {
                 </div>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav" style={{ marginRight: '10px' }}>
+                <Navbar.Collapse id="basic-navbar-nav" style={{ marginRight: '10px', margin: 'auto' }}>
                     <Container>
-                        <Nav>
+                        <Nav style={{ }}>
                             {/* <Nav.Link href="/home">Home</Nav.Link> */}
-                            <NavDropdown style={{ color: 'white' }} title="Home" id="basic-nav-dropdown">
+                            <NavDropdown style={{ color: 'white' }} title="Home" id="basic-nav-dropdown" className={styles.navbarNav}>
                                 <NavDropdown.Item to="/mission">Mission & Vision</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Citizen Charter</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.3">Messages from Principal</NavDropdown.Item>
